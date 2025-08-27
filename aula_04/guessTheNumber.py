@@ -1,9 +1,16 @@
 import random
 
 nomes = []
-recorde = 101
+recordes = []
 
 while(True):
+    jogador = input("Digite seu nome: ")
+    if jogador not in nomes:
+        nomes.append(jogador)
+        recordes.append(101)
+    
+    index = nomes.index(jogador)
+
     numeroAlvo = random.randint(1, 100)
     numeroTentativas = 0
     tentativa = 0
@@ -27,15 +34,19 @@ while(True):
                 numeroTentativas += 1
 
             else:
-                if recorde > numeroTentativas:
-                    recorde = numeroTentativas
-
                 numeroTentativas += 1
+                if recordes[index] > numeroTentativas:
+                    recordes[index] = numeroTentativas
+
                 numerosTestados = list(set(numerosTestados))
                 numerosTestados.sort()
 
-                print(f"\nAcertou o numero.\nQauntidade de tentativas: {numeroTentativas}\nSeu recorde é: {recorde}\nNumeros usados até acertar: {numerosTestados}")
-                
+                print(f"""Acertou o numero.
+                      Qauntidade de tentativas: {numeroTentativas}
+                      Seu recorde é: {recordes[index]}
+                      Numeros usados até acertar: {numerosTestados}
+                      """)
+
             numerosTestados.append(tentativa)
     except:
         print("error")
