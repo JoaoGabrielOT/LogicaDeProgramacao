@@ -15,7 +15,7 @@ while(True):
                 print("Muito alto, tente um mais baixo...\n")
                 numeroTentativas += 1
             elif tentativa < numeroAlvo:
-                print("Muito baixo, tente um mais baixo...\n")
+                print("Muito baixo, tente um mais alto...\n")
                 numeroTentativas += 1
             elif tentativa == numeroAlvo:
                 numeroTentativas += 1
