@@ -10,3 +10,5 @@ while (A != B):
 
 
 print(f"\nPrimeiro numero: {A}\nSegundo numero: {B}")
+
+#
