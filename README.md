@@ -18,6 +18,6 @@ Desenvolver o raciocínio lógico e a base para programação, preparando para m
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/LogicaDeProgramacao.git
+    git clone https://github.com/JoaoGabrielOT/LogicaDeProgramacao.git
     ```
 2. Navegue pelos diretórios e arquivos para acessar os conteúdos.
