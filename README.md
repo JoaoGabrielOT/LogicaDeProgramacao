@@ -18,6 +18,6 @@ Desenvolver o raciocínio lógico e a base para programação, preparando para m
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/JoaoGabrielOT/Modulo-Logica-de-Programa-o_Infinity-School.git
+    git clone https://github.com/JoaoGabrielOT/Modulo-Logica-de-Programacao_Infinity-School.git
     ```
 2. Navegue pelos diretórios e arquivos para acessar os conteúdos.
